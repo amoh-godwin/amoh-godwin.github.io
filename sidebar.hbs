@@ -1,0 +1,16 @@
+<ul class="side-nav">
+{{#each .}}
+  {{! `slug` is our unique identifier for each page }}
+  {{#is @root.page.slug slug}}
+    {{#links}}
+      {{#if separator}}
+      <li class="divider"></li>
+      {{else}}
+      <li{{#if modifier}} class="{{modifier}}"{{/if}}>
+        {{#if link}} <a href="{{url}}">{{text}}</a> {{else}} {{text}} {{/if}}
+      </li>
+      {{/if}}
+    {{/links}}
+  {{/is}}
+{{/each}}
+</ul>
