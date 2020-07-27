@@ -1,0 +1,29 @@
+# About page
+- slug: about
+  links:
+  - modifier: heading
+    link: true
+    url:  '#'
+    text: Learn About GeneAware
+  - link: true
+    url:  '#'
+    text: 'Diseases & Disorders Search'
+  - separator: true
+  - link: true
+    url:  '#'
+    text: Next Steps
+
+# Contact page
+- slug: contact
+  links:
+  - modifier: heading
+    link: true
+    url:  '#'
+    text: Foo
+  - link: true
+    url:  '#'
+    text: Bar
+  - separator: true
+  - link: true
+    url:  '#'
+    text: Baz
