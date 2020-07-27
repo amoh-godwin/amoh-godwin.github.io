@@ -1,4 +1,7 @@
-# Layouts
+---
+title: Layouts
+sidenav: true
+---
 
 ![xbox_small_various_screens](../../images/xbox_sm_various.jpg)
 
