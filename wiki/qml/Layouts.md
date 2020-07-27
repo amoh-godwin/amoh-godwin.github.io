@@ -1,6 +1,6 @@
 ---
 title: Layouts
-sidenav: true
+sidebar: true
 ---
 
 ![xbox_small_various_screens](../../images/xbox_sm_various.jpg)
