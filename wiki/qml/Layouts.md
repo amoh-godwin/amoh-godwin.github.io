@@ -1,6 +1,6 @@
 # Layouts
 
-![xbox_small_various_screens](images/xbox_sm_various.jpg)
+![xbox_small_various_screens](../../images/xbox_sm_various.jpg)
 
 
 
@@ -24,13 +24,13 @@ The numbers shows the direct contents of the Column layout. These are rows insid
 
 *App sample 1 - the white pane is a background for the numbers*
 
-![app navbar designed with Column Layout](file:///H:/GitHub/Python-gui-book/images/col_layout_app.png)
+![app navbar designed with Column Layout](../../images/col_layout_app.png)
 
 
 
 *App sample 2 - the black pane is a background for the numbers*
 
-![entire app designed with Coloumn Layout](file:///H:/GitHub/Python-gui-book/images/col_layout_app_large.png)
+![entire app designed with Coloumn Layout](../../images/col_layout_app_large.png)
 
 
 
@@ -46,13 +46,13 @@ The numbers shows the direct contents of the Row layout. These are columns insid
 
 *App sample 1* - the dark grey pane is a background for the numbers
 
-![app navbar designed with Row Layout](file:///H:/GitHub/Python-gui-book/images/rowlayout-app.png)
+![app navbar designed with Row Layout](../../images/rowlayout-app.png)
 
 
 
 *App sample 2* - the black pane is a background for the numbers
 
-![entire app designed with Row Layout](file:///H:/GitHub/Python-gui-book/images/rowlayout-app-large.png)
+![entire app designed with Row Layout](../../images/rowlayout-app-large.png)
 
 
 
@@ -70,7 +70,7 @@ The numbers shows the direct contents of the Grid layout. These are cells inside
 
 *App sample 1 - the black pane is a background for the numbers*
 
-![entire app designed with Coloumn Layout](file:///H:/GitHub/Python-gui-book/images/grid_layout_app.png)
+![entire app designed with Coloumn Layout](../../images/grid_layout_app.png)
 
 
 
@@ -244,7 +244,7 @@ The first layout first, then the other layouts will be inside of it. In that cas
 
 *App sample 1*
 
-![''](H:\GitHub\Python-gui-book\images\97525c46547983.58590c5c71391.jpg)
+![''](../../images/97525c46547983.58590c5c71391.jpg)
 
 
 
