@@ -2,7 +2,7 @@
 title: Layouts
 sidebar: true
 ---
-<link href="../../css/styles.css" rel="stylesheet" />
+@import "css/styles.css"
 
 ![xbox_small_various_screens](../../images/xbox_sm_various.jpg)
 
