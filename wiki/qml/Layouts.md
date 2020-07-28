@@ -10,8 +10,8 @@ sidebar: true
 <h2>{{ site.data.samplelist.docs_list_title }}</h2>
 <ul>
    {% for item in site.data.samplelist.docs %}
-      <li class="{% if item.url == page.url %}active{% endif %}">
-         <a href="{{ item.url }}">{{ item.title }}</a>
+      <li class="active">
+         <a href="{{ item.url }}">{{ item.title }} {{ page.url }}</a>
       </li>
    {% endfor %}
 </ul>
