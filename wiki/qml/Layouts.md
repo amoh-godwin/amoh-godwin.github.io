@@ -6,6 +6,13 @@ sidebar: true
 ![xbox_small_various_screens](../../images/xbox_sm_various.jpg)
 
 
+<h2>{{ site.data.samplelist.docs_list_title }}</h2>
+<ul>
+   {% for item in site.data.samplelist.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
+
 
 Layouts is one of the most important concepts in any Graphical User Interface (GUI) designing.
 
