@@ -1,6 +1,7 @@
 lsi: false
 safe: true
 source: .
+data_dir: _data
 incremental: false
 highlighter: rouge
 
