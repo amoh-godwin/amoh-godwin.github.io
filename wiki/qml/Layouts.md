@@ -11,8 +11,9 @@ relpath: /wiki/qml/
 <h2>{{ site.data.samplelist.docs_list_title }}</h2>
 <ul>
    {% for item in site.data.samplelist.docs %}
-      <li class="{% if page.relpath + item.url == page.url %}active {% endif %}">
-         <a href="{{ item.url }}">{{ item.title }}</a>
+      {% assign total = page.relpath | append: item.url %}
+      <li class="{% if total == page.url %}active {% endif %}">
+         <a href="{{ item.url }}">{{ item.title }} - {{ total }}</a>
       </li>
    {% endfor %}
 </ul>
