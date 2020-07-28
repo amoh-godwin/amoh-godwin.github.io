@@ -1,6 +1,7 @@
 ---
 title: Layouts
 sidebar: true
+relpath: /wiki/qml/
 ---
 <link href="{% link css/styles.css %}" rel="stylesheet" />
 
@@ -10,8 +11,8 @@ sidebar: true
 <h2>{{ site.data.samplelist.docs_list_title }}</h2>
 <ul>
    {% for item in site.data.samplelist.docs %}
-      <li class="active">
-         <a href="{{ item.url }}">{{ item.title }} {{ page.url }}</a>
+      <li class="{% if page.relpath + item.url == page.url %}active {% endif %}">
+         <a href="{{ item.url }}">{{ item.title }}</a>
       </li>
    {% endfor %}
 </ul>

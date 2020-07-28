@@ -1,4 +1,4 @@
-.result li.active a {
+.active a {
     color: lightgray;
     cursor: default;
 }
